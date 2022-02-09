@@ -1,0 +1,51 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.main {
+  width: 22rem;
+  height: 35rem;
+  margin: 5rem auto 0 auto;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.main__image-container {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.main__image {
+  width: inherit;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+.main__heading,
+.main__text {
+  padding: 0 1rem;
+  max-width: 315px;
+  text-align: center;
+}
+
+.main__text {
+  color: rgb(145, 145, 145);
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+footer a,
+footer a:active {
+  color: hsl(217, 52%, 36%);
+  text-decoration: none;
+}
